@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="it" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pizzeria Blow Out — Doppio pomodoro · pizza alta al trancio dal 1990, Via Lorenteggio 163, Milano</title>
+<meta name="description" content="Pizzeria Blow Out, Via Lorenteggio 163 all'angolo con Largo dei Gelsomini (M4 Gelsomini), Milano: pizza alta al trancio o in teglia, panzerotti fritti o al forno, focacce ripiene, scorzette. Dal 1990, tutti i giorni dalle 10 alle 21.">
+<link rel="canonical" href="https://rotenzark.github.io/pizzeria-blow-out/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pizzeria Blow Out — Doppio pomodoro">
+<meta property="og:description" content="Pizza alta al trancio col pomodoro sopra, panzerotti e focacce ripiene. Via Lorenteggio 163, angolo Largo dei Gelsomini, Milano. Dal 1990.">
+<meta property="og:image" content="https://rotenzark.github.io/pizzeria-blow-out/img/og.jpg">
+<meta property="og:url" content="https://rotenzark.github.io/pizzeria-blow-out/">
+<meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#B8261E">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&family=Hind:wght@400;500;600;700&family=Just+Another+Hand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=1">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="js/main.js?v=1" defer></script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"Pizzeria Blow Out","servesCuisine":["Pizza al trancio","Panzerotti","Focacce"],"image":"https://rotenzark.github.io/pizzeria-blow-out/img/og.jpg","url":"https://rotenzark.github.io/pizzeria-blow-out/","telephone":"+390248375035","foundingDate":"1990","address":{"@type":"PostalAddress","streetAddress":"Via Lorenteggio 163","addressLocality":"Milano","postalCode":"20146","addressRegion":"MI","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":45.4496117,"longitude":9.1365062},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"10:00","closes":"21:00"}],"priceRange":"€"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Cos'è il doppio pomodoro?","acceptedAnswer":{"@type":"Answer","text":"È il trancio con più salsa di pomodoro sopra: basta chiederlo al banco."}},{"@type":"Question","name":"Si può prendere una teglia intera?","acceptedAnswer":{"@type":"Answer","text":"Sì: tutti i diciannove gusti si prendono a trancio o in teglia intera."}},{"@type":"Question","name":"Si può mangiare lì?","acceptedAnswer":{"@type":"Answer","text":"Sì, ci sono alcuni posti dentro. Ma è soprattutto una pizzeria da asporto."}},{"@type":"Question","name":"I panzerotti sono fritti o al forno?","acceptedAnswer":{"@type":"Answer","text":"Tutti e due: al forno o fritti."}},{"@type":"Question","name":"Fate consegne a domicilio?","acceptedAnswer":{"@type":"Answer","text":"No: si passa al banco, a pochi passi dalla fermata Gelsomini della M4."}},{"@type":"Question","name":"Siete aperti la domenica?","acceptedAnswer":{"@type":"Answer","text":"Sì, tutti i giorni dalle 10 alle 21. La sera e nei festivi, meglio una telefonata prima."}},{"@type":"Question","name":"Dove siete?","acceptedAnswer":{"@type":"Answer","text":"Via Lorenteggio 163, all'angolo con Largo dei Gelsomini, a pochi passi dalla fermata Gelsomini della M4."}}]}
+</script>
+</head>
+<body>
+
+<div id="intro" class="intro" aria-hidden="true">
+  <div class="intro__in">
+    <svg class="intro__marchio" viewBox="0 0 40 40" aria-hidden="true"><path d="M13.5 33.2 A15 15 0 1 1 26.5 33.2" fill="none" stroke="#1F4D3A" stroke-width="2.2" stroke-linecap="round"/><path class="intro__spicchio" d="M20 13 L28 33 L12 33 Z" fill="#FFFDF8" stroke="#1F4D3A" stroke-width="2.2" stroke-linejoin="round"/></svg>
+    <div class="strato strato--grande" id="introStrato" data-strato data-strato-manuale style="--mx:62%"><span class="strato__mestolo"></span><span class="strato__salsa"></span><span class="strato__impasto"></span><span class="strato__base"></span></div>
+    <div class="intro__t" data-i18n="i.t">Doppio pomodoro.</div>
+  </div>
+  <button id="introSkip" class="intro__skip" type="button" data-i18n="i.skip">Salta</button>
+</div>
+
+<header class="testata">
+  <div class="testata__in">
+    <a class="marchio" href="#apertura" aria-label="Pizzeria Blow Out, torna all'inizio" data-i18n-aria="m.top">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M13.5 33.2 A15 15 0 1 1 26.5 33.2" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M20 13 L28 33 L12 33 Z" fill="#FFFDF8" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></svg>
+      <span class="marchio__n"><b>Blow Out</b><small data-i18n="m.sub">pizza al trancio · dal 1990</small></span>
+    </a>
+    <nav id="mainNav" aria-label="Sezioni" data-i18n-aria="m.nav">
+      <a href="#pomodoro" data-i18n="n.pomodoro">Il pomodoro</a>
+      <a href="#gusti" data-i18n="n.gusti">I gusti</a>
+      <a href="#impasto" data-i18n="n.impasto">L'impasto</a>
+      <a href="#specialita" data-i18n="n.specialita">Specialità</a>
+      <a href="#banco" data-i18n="n.banco">Il banco</a>
+      <a href="#orari" data-i18n="n.orari">Orari e dove</a>
+      <a href="#domande" data-i18n="n.domande">Domande</a>
+    </nav>
+    <div class="lingue" role="group" aria-label="Lingua" data-i18n-aria="m.lingua">
+      <button type="button" data-lang="it" aria-pressed="true">IT</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <a class="btn btn--rosso" href="tel:+390248375035" data-i18n="n.chiama">Chiama</a>
+    <button id="burger" type="button" aria-label="Apri il menu" aria-controls="drawer" aria-expanded="false" data-i18n-aria="n.menu"><span></span><span></span><span></span></button>
+  </div>
+  <div id="drawer" hidden>
+    <a href="#pomodoro" data-i18n="n.pomodoro">Il pomodoro</a>
+    <a href="#gusti" data-i18n="n.gusti">I gusti</a>
+    <a href="#impasto" data-i18n="n.impasto">L'impasto</a>
+    <a href="#specialita" data-i18n="n.specialita">Specialità</a>
+    <a href="#banco" data-i18n="n.banco">Il banco</a>
+    <a href="#orari" data-i18n="n.orari">Orari e dove</a>
+    <a href="#domande" data-i18n="n.domande">Domande</a>
+  </div>
+</header>
+
+<main>
+
+  <section id="apertura" class="apertura">
+    <div class="dentro due">
+      <div>
+        <p class="kicker" data-i18n="h.kicker">Pizza al trancio · Via Lorenteggio 163 · dal 1990</p>
+        <h1 data-i18n="h.t">Doppio<br>pomodoro.</h1>
+        <div class="strato strato--grande" id="heroStrato" data-strato data-strato-manuale style="--mx:66%"><span class="strato__mestolo"></span><span class="strato__salsa"></span><span class="strato__impasto"></span><span class="strato__base"></span></div>
+        <p class="apertura__p" data-i18n="h.p">Chi ci conosce il trancio lo chiede così: con più salsa sopra. Pizza alta, soffice dentro e croccante sotto, a trancio o in teglia intera. E poi panzerotti, focacce ripiene, scorzette. All'angolo con Largo dei Gelsomini, dal 1990.</p>
+        <p class="apertura__stato" id="orarioStato" aria-live="polite"></p>
+        <div class="apertura__azioni">
+          <a class="btn btn--rosso" href="tel:+390248375035" data-i18n="h.chiama">Chiama 02 4837 5035</a>
+          <a class="btn btn--vuoto" href="https://www.google.com/maps/search/?api=1&amp;query=Pizzeria+Blow+Out+Via+Lorenteggio+163+Milano" target="_blank" rel="noopener" data-i18n="h.indicazioni">Indicazioni</a>
+        </div>
+        <p class="apertura__badge" data-i18n="h.badge"><b>4,6 su Google</b> con 889 recensioni · «pizza al trancio» è la parola che ci scrivete di più</p>
+      </div>
+      <figure class="foto apertura__foto">
+        <button class="shot" type="button" data-full="img/salsa.jpg" aria-label="Ingrandisci la foto della teglia al pomodoro" data-i18n-aria="h.zoom"><img src="img/salsa.jpg" alt="Una teglia di pizza coperta di salsa di pomodoro e origano" data-i18n-alt="h.alt" width="1200" height="1376" fetchpriority="high"></button>
+        <figcaption data-i18n="h.fig">una teglia al pomodoro (foto dalla scheda Google)</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="pomodoro" class="sezione sezione--bianca">
+    <div class="dentro">
+      <div class="strato" data-strato style="--mx:74%"><span class="strato__mestolo"></span><span class="strato__salsa"></span><span class="strato__impasto"></span><span class="strato__base"></span></div>
+      <div class="due">
+        <div class="testo">
+          <p class="livello"><span class="livello__segno" data-l="sopra"><i></i><i></i><i></i></span><span data-i18n="p.liv">Sopra · il pomodoro</span></p>
+          <h2 data-i18n="p.t">Prima di tutto, la salsa.</h2>
+          <p data-i18n="p.p1">Nelle recensioni la salsa torna di continuo, e se ne parla con passione: il sugo è fra le parole che Google conta nelle 889 recensioni. E c'è chi ha trovato il modo di averne di più.</p>
+          <p class="citazione"><span data-i18n="p.cit">«per gustarla al massimo consiglio doppio pomodoro»</span><small data-i18n="p.cit2">da una recensione Google</small></p>
+          <p data-i18n="p.p2">Il doppio pomodoro non è un gusto a parte: è un trancio con più salsa sopra. Basta chiederlo al banco.</p>
+        </div>
+        <figure class="foto">
+          <button class="shot" type="button" data-full="img/mestolo.jpg" aria-label="Ingrandisci la foto della salsa" data-i18n-aria="p.zoom"><img src="img/mestolo.jpg" alt="Una ciotola di salsa di pomodoro col mestolo, accanto a un vassoio di panzerotti e a una torta ripiena" data-i18n-alt="p.alt" width="800" height="376"></button>
+          <figcaption data-i18n="p.fig">la ciotola della salsa, i panzerotti, una torta ripiena (foto dalla scheda Google)</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="gusti" class="sezione sezione--crema">
+    <div class="dentro">
+      <div class="strato" data-strato style="--mx:34%"><span class="strato__mestolo"></span><span class="strato__salsa"></span><span class="strato__impasto"></span><span class="strato__base"></span></div>
+      <div class="due due--inv">
+        <figure class="foto">
+          <button class="shot" type="button" data-full="img/gusti.jpg" aria-label="Ingrandisci la foto dei gusti" data-i18n-aria="g.zoom"><img src="img/gusti.jpg" alt="Tranci di gusti diversi accostati: pomodorini e olive, prosciutto, salame, funghi, cipolla" data-i18n-alt="g.alt" width="1100" height="1203"></button>
+          <figcaption data-i18n="g.fig">tranci di gusti diversi, uno accanto all'altro (foto dalla scheda Google)</figcaption>
+        </figure>
+        <div class="testo">
+          <p class="livello"><span class="livello__segno" data-l="sopra"><i></i><i></i><i></i></span><span data-i18n="g.liv">Sopra · i gusti</span></p>
+          <h2 data-i18n="g.t">Diciannove gusti, a trancio o in teglia.</h2>
+          <p data-i18n="g.p1">Sono quelli del nostro menu. Ognuno si prende a trancio, oppure in teglia intera da portare a casa.</p>
+          <ul class="cartellini">
+            <li data-i18n="g.1">Pomodoro</li><li data-i18n="g.2">Margherita</li><li data-i18n="g.3">Marinara</li><li data-i18n="g.4">Olive</li><li data-i18n="g.5">Prosciutto cotto</li><li data-i18n="g.6">Napoli</li><li data-i18n="g.7">Rucola</li><li data-i18n="g.8">Rucola e pomodorini</li><li data-i18n="g.9">Prosciutto e funghi</li><li data-i18n="g.10">Quattro stagioni</li><li data-i18n="g.11">Tonno</li><li data-i18n="g.12">Tonno e cipolla</li><li data-i18n="g.13">Salame piccante</li><li data-i18n="g.14">Würstel</li><li data-i18n="g.15">Quattro formaggi</li><li data-i18n="g.16">Vegetariana</li><li data-i18n="g.17">Capricciosa</li><li data-i18n="g.18">Gorgonzola</li><li data-i18n="g.19">Doppia mozzarella</li>
+          </ul>
+          <p class="nota" data-i18n="g.nota">Quello che c'è al banco cambia durante il giorno: se cercate un gusto preciso, chiedete.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="impasto" class="sezione sezione--impasto">
+    <div class="dentro">
+      <div class="strato" data-strato style="--mx:58%"><span class="strato__mestolo"></span><span class="strato__salsa"></span><span class="strato__impasto"></span><span class="strato__base"></span></div>
+      <div class="due">
+        <div class="testo">
+          <p class="livello"><span class="livello__segno" data-l="mezzo"><i></i><i></i><i></i></span><span data-i18n="m.liv">In mezzo · l'impasto</span></p>
+          <h2 data-i18n="m.t">Alta. Soffice dentro, croccante sotto.</h2>
+          <p data-i18n="m.p1">Non è la pizza sottile: è la pizza alta al trancio, cotta in teglia. Un trancio basta per un pranzo, e il giorno dopo c'è chi dice che è ancora più buona.</p>
+          <p class="mano" data-i18n="m.mano">Le parole più usate nelle 889 recensioni Google:</p>
+          <div class="parole">
+            <div class="reveal reveal-d1"><strong>96</strong><span data-i18n="m.k1">pizza al trancio</span></div>
+            <div class="reveal reveal-d2"><strong>56</strong><span data-i18n="m.k2">panzerotti</span></div>
+            <div class="reveal reveal-d3"><strong>21</strong><span data-i18n="m.k3">focacce</span></div>
+            <div class="reveal reveal-d1"><strong>8</strong><span data-i18n="m.k4">lievitata</span></div>
+            <div class="reveal reveal-d2"><strong>7</strong><span data-i18n="m.k5">teglia</span></div>
+            <div class="reveal reveal-d3"><strong>7</strong><span data-i18n="m.k6">croccante</span></div>
+          </div>
+          <p class="nota" data-i18n="m.kn">conteggi di Google sulle recensioni, settembre 2026</p>
+        </div>
+        <figure class="foto">
+          <button class="shot" type="button" data-full="img/alta.jpg" aria-label="Ingrandisci la foto del trancio visto di lato" data-i18n-aria="m.zoom"><img src="img/alta.jpg" alt="Un trancio al salame piccante visto di lato: l'impasto alto e soffice" data-i18n-alt="m.alt" width="1100" height="594"></button>
+          <figcaption data-i18n="m.fig">un trancio visto di lato (foto dalla scheda Google)</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="specialita" class="sezione sezione--bianca">
+    <div class="dentro">
+      <div class="strato" data-strato style="--mx:22%"><span class="strato__mestolo"></span><span class="strato__salsa"></span><span class="strato__impasto"></span><span class="strato__base"></span></div>
+      <p class="livello"><span class="livello__segno" data-l="accanto"><i></i><i></i><i></i></span><span data-i18n="s.liv">Accanto · le specialità</span></p>
+      <h2 data-i18n="s.t">E poi panzerotti, focacce, scorzette.</h2>
+      <p class="testo" data-i18n="s.p1">Lo scriviamo anche sulla nostra pagina: pizze al trancio, panzerotti fritti o al forno, focacce ripiene, schiacciate, scorzette e molto altro ancora. Ecco le specialità del nostro menu.</p>
+      <ul class="specialita">
+        <li class="reveal reveal-d1"><b data-i18n="s.1t">Panzerotti al forno o fritti</b><span data-i18n="s.1p">prosciutto, mozzarella, pomodoro</span></li>
+        <li class="reveal reveal-d2"><b data-i18n="s.2t">Panzerotti al forno</b><span data-i18n="s.2p">pomodoro e mozzarella</span></li>
+        <li class="reveal reveal-d3"><b data-i18n="s.3t">Calzoni</b><span data-i18n="s.3p">con la cipolla, o con la verdura</span></li>
+        <li class="reveal reveal-d1"><b data-i18n="s.4t">Il Fiorello</b><span data-i18n="s.4p">una delle nostre specialità ripiene: chiedete al banco</span></li>
+        <li class="reveal reveal-d2"><b data-i18n="s.5t">Schiacciata</b><span data-i18n="s.5p">dal forno, da portare via</span></li>
+        <li class="reveal reveal-d3"><b data-i18n="s.6t">Focaccia lucana e focaccia farcita</b><span data-i18n="s.6p">semplice o ripiena</span></li>
+        <li class="reveal reveal-d1"><b data-i18n="s.7t">Piadine</b><span data-i18n="s.7p">tricolore, con le verdure, la Piadina Blow Out, con la Nutella</span></li>
+        <li class="reveal reveal-d2"><b data-i18n="s.8t">Rustichelle</b><span data-i18n="s.8p">semplici o farcite</span></li>
+        <li class="reveal reveal-d3"><b data-i18n="s.9t">Scorzette</b><span data-i18n="s.9p">in sacchetto, oppure condite</span></li>
+      </ul>
+      <div class="fotodue">
+        <figure class="foto">
+          <button class="shot" type="button" data-full="img/vetrina-banco.jpg" aria-label="Ingrandisci la foto del banco a vetro" data-i18n-aria="s.zoom1"><img src="img/vetrina-banco.jpg" alt="Il banco a vetro con pizzette rosse, focaccia farcita e arancini" data-i18n-alt="s.alt1" width="1400" height="788"></button>
+          <figcaption data-i18n="s.fig1">il banco a vetro: pizzette rosse, focacce, arancini (foto dalla scheda Google)</figcaption>
+        </figure>
+        <figure class="foto">
+          <button class="shot" type="button" data-full="img/ripieno.jpg" aria-label="Ingrandisci la foto della focaccia ripiena" data-i18n-aria="s.zoom2"><img src="img/ripieno.jpg" alt="Una focaccia ripiena di prosciutto e pomodoro, tagliata a pezzi" data-i18n-alt="s.alt2" width="1300" height="819"></button>
+          <figcaption data-i18n="s.fig2">una focaccia ripiena, tagliata a pezzi (foto dalla scheda Google)</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="banco" class="sezione sezione--crosta">
+    <div class="dentro">
+      <div class="strato" data-strato style="--mx:80%"><span class="strato__mestolo"></span><span class="strato__salsa"></span><span class="strato__impasto"></span><span class="strato__base"></span></div>
+      <div class="due">
+        <div class="testo">
+          <p class="livello"><span class="livello__segno" data-l="sotto"><i></i><i></i><i></i></span><span data-i18n="b.liv">Sotto · il banco</span></p>
+          <h2 data-i18n="b.t">Sul banco c'è scritto 1990.</h2>
+          <p data-i18n="b.p1">Una targa di sassolini nei mattoni, accanto a un sole a mosaico: è la data del nostro locale, la stessa del nostro marchio. Il posto è piccolo, soprattutto da asporto, con qualche posto dentro per mangiare al volo.</p>
+          <p data-i18n="b.p2">Dentro, pareti gialle, pentole di rame e un faraone sopra la mensola. Fuori, la tenda «Blow Out pizza al trancio» all'angolo con Largo dei Gelsomini.</p>
+          <p data-i18n="b.p3">Nelle recensioni torna spesso il tempo: c'è chi viene da quando era bambino, chi da vent'anni, chi ci vede un punto fermo del quartiere. Quattordici testi su ottantatré, fra i più recenti.</p>
+        </div>
+        <div class="pila">
+          <figure class="foto">
+            <button class="shot" type="button" data-full="img/banco.jpg" aria-label="Ingrandisci la foto del banco con la targa 1990" data-i18n-aria="b.zoom2"><img src="img/banco.jpg" alt="Il banco in mattoni con la targa 1990 e il sole a mosaico" data-i18n-alt="b.alt2" width="744" height="592"></button>
+            <figcaption data-i18n="b.fig2">la targa «1990» sul banco</figcaption>
+          </figure>
+          <figure class="foto">
+            <button class="shot" type="button" data-full="img/faraone.jpg" aria-label="Ingrandisci la foto del faraone" data-i18n-aria="b.zoom3"><img src="img/faraone.jpg" alt="Un busto di faraone e una sfinge sulla mensola di legno" data-i18n-alt="b.alt3" width="1200" height="920"></button>
+            <figcaption data-i18n="b.fig3">il faraone sopra la mensola</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="recensioni" class="sezione sezione--bianca">
+    <div class="dentro">
+      <div class="strato" data-strato style="--mx:46%"><span class="strato__mestolo"></span><span class="strato__salsa"></span><span class="strato__impasto"></span><span class="strato__base"></span></div>
+      <h2 data-i18n="r.t">Quello che scrivete voi.</h2>
+      <p data-i18n="r.p">Cinque recensioni Google, come sono state scritte.</p>
+      <div class="voto"><strong>4,6</strong><span data-i18n="r.voto">su 5 · 889 recensioni Google</span></div>
+      <ul class="recensioni">
+        <li class="rec reveal reveal-d1"><div class="rec__stelle" aria-label="5 stelle" data-i18n-aria="r.s5">★★★★★</div><p data-i18n="r.1">Pizza al trancio fra le migliori di Milano, se non la migliore. Impasto alto e morbido, con base croccante, ed ottimi ingredienti di prima qualità, il tutto in un ambiente familiare. Funziona principalmente da asporto, ma ci sono anche dei posti all'interno per mangiare direttamente in loco. Super raccomandato.</p><footer data-i18n="r.f1">Stefano Mendolia · 3 mesi fa · 5 stelle</footer></li>
+        <li class="rec reveal reveal-d2"><div class="rec__stelle" aria-label="5 stelle" data-i18n-aria="r.s5">★★★★★</div><p data-i18n="r.2">Pizza al trancio veramente buona una delle migliori se non la migliore in zona, per poi non parlare dei panzerotti, buonissimi e sempre con farciture molto abbondanti. Conosco questa pizzeria fino dagli inizi degli anni 90 e noto con piacere che la qualità è la bontà dei prodotti è rimasta invariata nel tempo. Posto assolutamente consigliato.</p><footer data-i18n="r.f2">Roberto Vazza · 8 mesi fa · 5 stelle</footer></li>
+        <li class="rec reveal reveal-d3"><div class="rec__stelle" aria-label="5 stelle" data-i18n-aria="r.s5">★★★★★</div><p data-i18n="r.3">Locale piccolo ma un riferimento per il quartiere. Pizza alta, buona, facile da digerire, porzioni molto grandi, servizio in 10 min</p><footer data-i18n="r.f3">Paolo Giordano · un anno fa · 5 stelle</footer></li>
+        <li class="rec reveal reveal-d1"><div class="rec__stelle" aria-label="5 stelle" data-i18n-aria="r.s5">★★★★★</div><p data-i18n="r.4">Da sempre se penso pizza penso al trancio di Blow out</p><footer data-i18n="r.f4">Filippo Santamato · un anno fa · 5 stelle</footer></li>
+        <li class="rec reveal reveal-d2"><div class="rec__stelle" aria-label="4 stelle" data-i18n-aria="r.s4">★★★★</div><p data-i18n="r.5">Sempre buona la pizza e i panzerotti</p><footer data-i18n="r.f5">Bezzi Bazzi · un anno fa · 4 stelle</footer></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="orari" class="sezione sezione--crema orari">
+    <div class="dentro">
+      <div class="strato" data-strato style="--mx:64%"><span class="strato__mestolo"></span><span class="strato__salsa"></span><span class="strato__impasto"></span><span class="strato__base"></span></div>
+      <div class="due">
+        <div>
+          <h2 data-i18n="o.t">Tutti i giorni, dalle 10 alle 21.</h2>
+          <table>
+            <tbody>
+              <tr data-day="1"><td data-i18n="o.lun">lunedì</td><td>10:00–21:00</td></tr>
+              <tr data-day="2"><td data-i18n="o.mar">martedì</td><td>10:00–21:00</td></tr>
+              <tr data-day="3"><td data-i18n="o.mer">mercoledì</td><td>10:00–21:00</td></tr>
+              <tr data-day="4"><td data-i18n="o.gio">giovedì</td><td>10:00–21:00</td></tr>
+              <tr data-day="5"><td data-i18n="o.ven">venerdì</td><td>10:00–21:00</td></tr>
+              <tr data-day="6"><td data-i18n="o.sab">sabato</td><td>10:00–21:00</td></tr>
+              <tr data-day="0"><td data-i18n="o.dom">domenica</td><td>10:00–21:00</td></tr>
+            </tbody>
+          </table>
+          <p class="avviso" data-i18n="o.avviso">La sera e nei festivi, meglio una telefonata prima di venire: 02 4837 5035.</p>
+          <dl class="contatti">
+            <div><dt data-i18n="o.ind">Indirizzo</dt><dd data-i18n="o.indv">Via Lorenteggio 163, 20146 Milano, all'angolo con Largo dei Gelsomini</dd></div>
+            <div><dt data-i18n="o.metro">Metro</dt><dd data-i18n="o.metrov">M4, fermata Gelsomini, a pochi passi</dd></div>
+            <div><dt data-i18n="o.tel">Telefono</dt><dd><a href="tel:+390248375035">02 4837 5035</a></dd></div>
+          </dl>
+          <a class="btn btn--verde" href="https://www.google.com/maps/search/?api=1&amp;query=Pizzeria+Blow+Out+Via+Lorenteggio+163+Milano" target="_blank" rel="noopener" data-i18n="o.btn">Indicazioni stradali</a>
+        </div>
+        <figure class="foto">
+          <button class="shot" type="button" data-full="img/vetrina.jpg" aria-label="Ingrandisci la foto della vetrina" data-i18n-aria="o.zoom"><img src="img/vetrina.jpg" alt="La vetrina con la tenda Blow Out pizza al trancio" data-i18n-alt="o.alt" width="960" height="1440"></button>
+          <figcaption data-i18n="o.fig">cercate la tenda (foto dalla scheda Google)</figcaption>
+        </figure>
+        <div class="mappa">
+          <iframe src="https://www.google.com/maps?q=Pizzeria+Blow+Out,+Via+Lorenteggio+163,+20146+Milano&amp;z=16&amp;output=embed" title="Mappa: Pizzeria Blow Out, Via Lorenteggio 163, Milano" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen data-i18n-title="o.mappa"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="domande" class="sezione sezione--bianca">
+    <div class="dentro">
+      <div class="strato" data-strato style="--mx:28%"><span class="strato__mestolo"></span><span class="strato__salsa"></span><span class="strato__impasto"></span><span class="strato__base"></span></div>
+      <h2 data-i18n="q.t">Domande al banco.</h2>
+      <div class="faq">
+        <details class="reveal reveal-d1"><summary data-i18n="q.1t">Cos'è il doppio pomodoro?</summary><p data-i18n="q.1p">È il trancio con più salsa di pomodoro sopra: basta chiederlo al banco.</p></details>
+        <details class="reveal reveal-d2"><summary data-i18n="q.2t">Si può prendere una teglia intera?</summary><p data-i18n="q.2p">Sì: tutti i diciannove gusti si prendono a trancio o in teglia intera.</p></details>
+        <details class="reveal reveal-d3"><summary data-i18n="q.3t">Si può mangiare lì?</summary><p data-i18n="q.3p">Sì, ci sono alcuni posti dentro. Ma è soprattutto una pizzeria da asporto.</p></details>
+        <details class="reveal reveal-d1"><summary data-i18n="q.4t">I panzerotti sono fritti o al forno?</summary><p data-i18n="q.4p">Tutti e due: al forno o fritti.</p></details>
+        <details class="reveal reveal-d2"><summary data-i18n="q.5t">Fate consegne a domicilio?</summary><p data-i18n="q.5p">No: si passa al banco, a pochi passi dalla fermata Gelsomini della M4.</p></details>
+        <details class="reveal reveal-d3"><summary data-i18n="q.6t">Siete aperti la domenica?</summary><p data-i18n="q.6p">Sì, tutti i giorni dalle 10 alle 21. La sera e nei festivi, meglio una telefonata prima.</p></details>
+        <details class="reveal reveal-d1"><summary data-i18n="q.7t">Dove siete?</summary><p data-i18n="q.7p">Via Lorenteggio 163, all'angolo con Largo dei Gelsomini, a pochi passi dalla fermata Gelsomini della M4.</p></details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="piede">
+  <div class="piede__dentro">
+    <p class="piede__n">Blow Out</p>
+    <p data-i18n="p.1">Pizzeria Blow Out · pizza al trancio dal 1990 · panzerotti, focacce ripiene, scorzette · tutti i giorni 10–21</p>
+    <p>Via Lorenteggio 163, 20146 Milano · <a href="tel:+390248375035">02 4837 5035</a></p>
+    <p data-i18n="p.3">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · testi dal menu e dalla scheda Google dell'attività e dalla sua pagina Facebook, recensioni pubbliche su Google (settembre 2026); fotografie dalla scheda Google.</p>
+  </div>
+</footer>
+
+<nav id="actionBar" class="barra" aria-label="Azioni rapide" data-i18n-aria="a.nav">
+  <a href="tel:+390248375035" data-i18n="a.chiama">Chiama</a>
+  <a href="#gusti" data-i18n="a.gusti">Gusti</a>
+  <a href="#orari" data-i18n="a.orari">Orari</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=Pizzeria+Blow+Out+Via+Lorenteggio+163+Milano" target="_blank" rel="noopener" data-i18n="a.mappa">Mappa</a>
+</nav>
+
+<div id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Foto ingrandita" data-i18n-aria="m.lightbox">
+  <button id="lightboxClose" type="button" aria-label="Chiudi" data-i18n-aria="m.chiudi">×</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+</body>
+</html>
